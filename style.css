@@ -1,0 +1,111 @@
+/* ===== Google Font Imort ==== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+
+body {
+    height: 100vh;
+    background-color: beige;
+    text-align: center;
+}
+
+nav .nav-bar {
+    position: relative;
+    height: 100%;
+    margin: 0 160px;
+    padding: 0 550px;
+    font-size: 20px;
+    justify-content: space-between;
+} 
+
+nav .nav-bar .logo {
+    color: brown;
+    
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    list-style-position: inside;
+    color: blue;
+}
+
+.nav-links li {
+    margin: 0 5px;
+    list-style: none;
+    text-decoration: none;
+
+    
+}
+
+.nav-links li a {
+    position: relative;
+    align-items: center;
+    list-style-position: inside;
+}
+
+content {
+    position: relative;
+    margin: 20px auto;
+    padding: 0 500px;
+    top: 500px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .social {
+    position: relative;
+    margin: 0 160px;
+    padding: 0 550px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.social li{
+    margin: 0 5px;
+    list-style: none;
+    position: relative;
+    align-items: center;
+    list-style-position: inside;
+    display: inline;
+}
+
+.metin {
+    text-align: justify;
+    text-indent: 0px;
+    padding: 0 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.konu {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+}
+
+.konu ol {
+    text-align: justify;
+    text-indent: 0px;
+    padding: 0 300px;
+}
+
+.blog {
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+
+}
+
+.blog-text {
+    text-align: center;
+    text-indent: 0px;
+    padding: 0 550px;
+    font-size: 16px;
+    
+
+}
+
+.iletisim {
+    margin-top: 80px;
+}
